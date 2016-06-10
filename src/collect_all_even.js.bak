@@ -1,0 +1,12 @@
+ var collection_a = [
+    {key: "a"}, {key: "e"}, {key: "h"}, {key: "t"}, {key: "f"}, {key: "c"}, {key: "g"}, {key: "b"}, {key: "d"}
+  ];
+  var collection_b = {value: ["a", "d", "e", "f"]};
+  
+function collect_same_elements(collection_a, object_b) {
+	for(p in collection_a){
+		p.key
+	}
+}
+
+module.exports = collect_same_elements;
